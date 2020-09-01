@@ -17,6 +17,7 @@
         fetch('https://jsonplaceholder.typicode.com/users')
         .then(response => response.json())
         .then(json => displayUser(json))
+        .catch(error => console.log(error))
         const ul = document.getElementById('user-container');
         function displayUser(users){
             for(let i = 0; i<users.length; i++){
