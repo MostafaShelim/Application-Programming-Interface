@@ -1,0 +1,31 @@
+alert("You are alerting");
+confirm("You are confirming");
+prompt("You are prompting");
+// egula browser chara dekhabe na
+history.back()
+history.forward()
+history.go(num)
+
+location.assign("link");
+location href = "link";
+
+cookies = tumi kothay chila, tumar sob information store kore rakehm,
+tumi ki language a dekhcho, tumar motamoti proyojonio information backhand joma rakhe,
+
+2 types cookies
+1. session cookie = tumi jotokkhan ei website a thakba totakkhan eta kaj korbe
+2. token cookie = date porjonto kaj korbe
+
+all_cokies = document.cookie;
+// new cookie
+document.cookie = newCookie;
+
+//to store data of your website
+session storage// ami je website thakbo oita te kaj korbe
+local storage (key: value)// future use kore user experienced upor base kore
+
+localStorage.setItem('subscribe', "true");
+sessionStorage.setItem('continue', "true");
+getItem()
+removeItem()
+etc...
